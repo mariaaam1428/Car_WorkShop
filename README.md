@@ -1,1 +1,5 @@
 # Car_WorkShop
+Write a C program that keeps track of the customers visiting a  workshop. The program utilizes two data structures. a stack and a queue to have customers' data in particular orders. ( 
+The main program should display the following menu, 
+1. Add a New Customer. 2. Serve a Customer. 3. Display the number of customers waiting. .4. Display Customers Information. 5. Display Customers' information in the "most-recent. Order. 6. Exit menu
+2. • By choosing "Add a NeW Customer" you should enter the data of the new arriving customer and save it such that he has the least priority among others. • By choosing "serve a Customer" you should display the data of the first arriving customer that dismiss them from the system. • "Display Customers Information" prints on screen the data of the current waiting customers without serving them: this can be done, e.g.. by serving all the customers to print out their Information and then adding them again in the queue. • "Display .customers in the most. recent Order can be done lay copying the data to a structure that reverses the order.
